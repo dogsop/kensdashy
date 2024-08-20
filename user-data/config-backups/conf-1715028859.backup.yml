@@ -1,0 +1,413 @@
+pageInfo:
+  title: Smellydog Web Resources
+  description: Welcome to your Smellydog dashboard!
+  footerText: For all the smelly dogs, Cal, Katy, and Cubby
+  logo: https://www.smellydog.net/images/cal.png
+  navLinks:
+    - title: Google
+      path: https://www.google.com
+    - title: GitHub
+      path: https://github.com/El-Pollo-Loco-Inc
+pages:
+  - name: Internal Home Stuff
+    path: internalstuff.yml
+appConfig:
+  auth:
+    users:
+      - user: dogsop
+        hash: 1fc959ad505adb8ed7e5bb16142154bb9f6e46a448442546ed0b9b95682dac9e
+        type: admin
+    enableGuestAccess: true
+  theme: material-original
+  enableMaterialDesignIcons: true
+  layout: auto
+  iconSize: medium
+  language: en
+  disableConfiguration: false
+  routingMode: hash
+  defaultOpeningMethod: newtab
+  statusCheck: false
+  statusCheckInterval: 0
+  faviconApi: iconhorse
+  enableMultiTasking: false
+  widgetsAlwaysUseProxy: false
+  webSearch:
+    disableWebSearch: true
+    searchEngine: duckduckgo
+    openingMethod: newtab
+    searchBangs: {}
+  enableFontAwesome: true
+  hideComponents:
+    hideHeading: false
+    hideNav: false
+    hideSearch: false
+    hideSettings: false
+    hideFooter: false
+  showSplashScreen: false
+  preventWriteToDisk: false
+  preventLocalSave: false
+  disableConfigurationForNonAdmin: false
+  allowConfigEdit: true
+  enableServiceWorker: false
+  disableContextMenu: false
+  disableUpdateChecks: false
+  disableSmartSort: false
+  enableErrorReporting: false
+sections:
+  - name: News
+    icon: mdi-newspaper-variant-multiple
+    items:
+      - title: CNN
+        icon: favicon
+        url: https://www.cnn.com
+        id: 0_413_cnn
+      - title: Feedly
+        icon: feedly.png
+        url: https://feedly.com/i/my
+        id: 1_413_feedly
+      - title: COVID-19
+        icon: favicon
+        url: >-
+          https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
+        target: newtab
+        id: 2_413_covid
+      - title: NY Times
+        icon: newyorktimes.svg
+        url: https://www.nytimes.com/
+        target: newtab
+        id: 3_413_nytimes
+      - title: NY Times Games
+        icon: newyorktimes.svg
+        url: https://www.nytimes.com/crosswords
+        target: newtab
+        id: 4_413_nytimesgames
+      - title: Washington Post
+        icon: favicon
+        url: https://www.washingtonpost.com/
+        target: newtab
+        id: 5_413_washingtonpost
+  - name: Weather
+    icon: mdi-weather-lightning-rainy
+    items:
+      - title: weather.com
+        icon: favicon
+        url: https://weather.com/
+        id: 0_720_weathercom
+      - title: NOAA
+        icon: mdi-weather-partly-cloudy
+        url: >-
+          https://forecast.weather.gov/MapClick.php?lat=33.2559&lon=-96.9853#.XVR2-m_YqUk
+        target: newtab
+        id: 1_720_noaa
+      - title: Weather Underground
+        icon: favicon
+        url: https://www.wunderground.com/dashboard/pws/KTXAUBRE115
+        id: 2_720_weatherunderground
+      - title: Ambient Weather
+        icon: favicon
+        url: https://ambientweather.net/dashboard
+        id: 3_720_ambientweather
+  - name: Media
+    icon: mdi-television-classic
+    items:
+      - title: Plex
+        url: https://app.plex.tv/desktop/#!/
+        icon: hl-plex
+        id: 0_480_plex
+      - title: Netflix
+        icon: favicon
+        url: https://www.netflix.com/browse
+        id: 1_480_netflix
+      - title: HBO
+        icon: favicon
+        url: https://play.max.com/
+        id: 2_480_hbo
+      - title: Cinemark
+        icon: https://www.cinemark.com/favicon-64.ico
+        url: https://www.cinemark.com/
+        id: 3_480_cinemark
+      - title: IMDb
+        url: https://www.imdb.com/
+        icon: favicon
+        id: 4_480_imdb
+      - title: TheTVDB
+        url: https://thetvdb.com/
+        icon: favicon
+        id: 5_480_thetvdb
+      - title: Amazon Music
+        icon: amazonmusic.png
+        url: https://music.amazon.com/
+        target: newtab
+        id: 6_480_amazonmusic
+      - title: Rotten Tomatoes
+        icon: favicon
+        url: https://www.rottentomatoes.com
+        target: newtab
+        id: 7_480_rottentomatoes
+  - name: Ken's Health Stuff
+    items:
+      - title: UHC
+        icon: >-
+          https://prod.member.myuhc.com/etc/designs/myuhc/clientlibs/redesign/design2/images/favicon.ico
+        description: United Health Card portal
+        url: https://myuhc.com/
+        id: 0_1622_uhc
+      - title: Walgreens
+        icon: favicon
+        url: https://www.walgreens.com/
+        id: 1_1622_walgreens
+      - title: EPL Flex
+        icon: favicon
+        description: El Pollo Loco Flex card administrator
+        url: https://goigoe.wealthcareportal.com/Page/Home
+        id: 2_1622_eplflex
+      - title: Texas Health My Chart
+        description: Texas Health patient portal
+        icon: mdi-medical-bag
+        url: http://mychart.texashealth.org
+        target: newtab
+        id: 3_1622_texashealthmychart
+      - title: MyID
+        description: MyId bracelet site
+        icon: mdi-id-card
+        url: https://getmyid.com
+        target: newtab
+        id: 4_1622_myid
+      - title: Quest Diagnostics
+        description: Quest labs
+        icon: mdi-test-tube
+        url: https://appointment.questdiagnostics.com/as-home
+        target: newtab
+        id: 5_1622_questdiagnostics
+      - title: Labcorp
+        icon: favicon
+        description: Lab Corp
+        url: https://patient.labcorp.com/landing
+        id: 6_1622_labcorp
+      - title: TDDC
+        icon: >-
+          https://tddctx.com/wp-content/themes/osky-blue-tddc/img/favicon/favicon-32x32.png
+        description: Texas Digestive Disease Consultants (Dr Park)
+        url: https://tddctx.com/
+        id: 7_1622_tddc
+      - title: Family Audiology
+        description: Hearing aid/audiologist
+        icon: mdi-ear-hearing
+        url: https://familyaud.com/
+        target: newtab
+        id: 8_1622_familyaudiology
+      - title: Adv Foot and Ankle
+        description: Dr Myer - foot doctor
+        icon: mdi-foot-print
+        url: https://www.advancedfootandankledocs.com/
+        target: newtab
+        id: 9_1622_advfootandankle
+      - title: TDDC Messages
+        url: https://patient.klara.com/#/
+        target: newtab
+        id: 10_1622_tddcmessages
+  - name: Home
+    items:
+      - title: Home Assistant
+        icon: hl-home-assistant
+        url: https://hass.smellydog.net
+        target: newtab
+        id: 0_393_homeassistant
+      - title: Smellydog Cloud
+        icon: mdi-cloud-outline
+        url: https://nextcloud.smellydog.net
+        target: newtab
+        id: 1_393_smellydogcloud
+      - title: Sandbrock Life
+        description: Sandbrock Ranch resident site
+        icon: mdi-swim
+        url: http://www.sandbrockranchlife.com
+        target: newtab
+        id: 2_393_sandbrocklife
+      - title: AT&T
+        icon: favicon
+        description: Home phone company
+        url: https://www.att.com/my/#/login
+        id: 3_393_att
+      - title: T-Mobile
+        icon: favicon
+        description: Cell phone company
+        url: https://www.t-mobile.com/
+        id: 4_393_tmobile
+      - title: Atmos Energy
+        description: Gas company
+        icon: mdi-barrel
+        url: http://www.atmosenergy.com
+        target: newtab
+        id: 5_393_atmosenergy
+      - title: CoServe (electric)
+        description: Electric company
+        icon: mdi-transmission-tower-import
+        url: http://www.atmosenergy.com
+        target: newtab
+        id: 6_393_coserveelectric
+      - title: Mustang (water)
+        description: Water company
+        icon: mdi-watering-can-outline
+        url: https://payments.mustangwater.com/
+        target: newtab
+        id: 7_393_mustangwater
+      - title: Honeywell Home
+        icon: favicon
+        description: Set house temperature online
+        url: https://mytotalconnectcomfort.com/portal
+        id: 8_393_honeywellhome
+      - title: Kevo (front door)
+        description: Front door lock portal
+        icon: mdi-door
+        url: https://www.mykevo.com/user/locks
+        target: newtab
+        id: 9_393_kevofrontdoor
+      - title: Weed Man
+        icon: favicon
+        description: Our lawn care service
+        url: http://customer.weedmanusa.com
+        id: 10_393_weedman
+      - title: EasyDNS Email
+        icon: mdi-email-fast-outline
+        url: https://webmail.easymail.ca/
+        target: newtab
+        id: 11_393_easydnsemail
+  - name: Shopping
+    items:
+      - title: Amazon
+        icon: favicon
+        url: https://smile.amazon.com/
+        id: 0_840_amazon
+      - title: Lowes
+        icon: mdi-tools
+        url: https://lowes.com/
+        target: newtab
+        id: 1_840_lowes
+      - title: Home Depot
+        icon: mdi-hammer-screwdriver
+        url: https://www.homedepot.com/
+        target: newtab
+        id: 2_840_homedepot
+      - title: Ikea
+        icon: favicon
+        url: https://www.ikea.com/
+        id: 3_840_ikea
+      - title: Target
+        icon: https://assets.targetimg1.com/static/images/favicon.ico
+        url: https://www.target.com/
+        target: newtab
+        id: 4_840_target
+  - name: Travel
+    items:
+      - title: American Airlines
+        icon: favicon
+        url: https://www.aa.com
+        id: 0_622_americanairlines
+      - title: Delta
+        icon: favicon
+        url: https://www.delta.com
+        id: 1_622_delta
+      - title: Southwest Airlines
+        icon: favicon
+        url: https://www.southwest.com/
+        id: 2_622_southwestairlines
+      - title: Award Wallet
+        icon: favicon
+        url: https://awardwallet.com
+        id: 3_622_awardwallet
+      - title: TripIt
+        icon: mdi-wallet-travel
+        url: https://www.tripit.com
+        target: newtab
+        id: 4_622_tripit
+      - title: Flyer Talk
+        icon: flyertalk.png
+        url: https://www.flyertalk.com
+        id: 5_622_flyertalk
+      - title: FlightAware
+        icon: mdi-airplane
+        url: https://flightaware.com
+        target: newtab
+        id: 6_622_flightaware
+      - title: Expert Flyer
+        icon: mdi-airport
+        url: http://www.expertflyer.com
+        target: newtab
+        id: 7_622_expertflyer
+  - name: Financial
+    items:
+      - title: USAA
+        icon: favicon
+        description: USAA site
+        url: https://www.usaa.com
+        id: 0_901_usaa
+      - title: Fidelity (Global)
+        description: Heartland 401K
+        icon: mdi-bank-outline
+        url: https://nb.fidelity.com
+        target: newtab
+        id: 1_901_fidelityglobal
+      - title: Vanguard (Betty)
+        description: Betty Brown's 401K
+        icon: favicon
+        url: https://investor.vanguard.com/home
+        id: 2_901_vanguardbetty
+      - title: Chase
+        icon: favicon
+        description: Chase & Marriott credit cards
+        url: https://www.chase.com
+        id: 3_901_chase
+      - title: Citibank
+        icon: favicon
+        description: American Airlines Visa
+        url: https:///online.citi.com
+        id: 4_901_citibank
+      - title: AMEX
+        description: American Express credit card
+        icon: americanexpress.png
+        url: http://cardappdacq.americanexpress.com
+        target: newtab
+        id: 5_901_amex
+      - title: Discover
+        icon: favicon
+        description: Discover card
+        url: https://www.discover.com
+        id: 6_901_discover
+      - title: Colonial Mortgage
+        description: Our mortage service company
+        icon: mdi-bank
+        url: https://servicehomeloan.com/Login.aspx
+        id: 7_901_colonialmortgage
+  - name: Bittorrent
+    icon: mdi-cloud-download-outline
+    items:
+      - title: immortalseed.me
+        icon: favicon
+        url: https://immortalseed.me/index.php?logged=true
+        id: 0_1069_immortalseedme
+      - title: TVCUK
+        icon: https://tvchaosuk.com/favicon.ico
+        url: https://tvchaosuk.com/
+        id: 1_1069_tvcuk
+  - name: Cooking/Hobbies
+    items:
+      - title: Our Cookbook
+        icon: favicon
+        url: https://www.cookmate.online/recipes/
+        id: 0_1461_ourcookbook
+      - title: Pinterest
+        icon: favicon
+        url: https://www.pinterest.com/
+        target: newtab
+        id: 1_1461_pinterest
+  - name: Sports
+    items:
+      - title: MLB
+        icon: favicon
+        url: https://www.mlb.com/
+        id: 0_651_mlb
+      - title: Cubs
+        icon: cubs.png
+        url: https://www.mlb.com/cubs
+        id: 1_651_cubs

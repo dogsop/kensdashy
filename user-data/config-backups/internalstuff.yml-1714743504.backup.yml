@@ -1,0 +1,451 @@
+pageInfo:
+  title: Smellydog Web Resources
+  description: Welcome to your Smellydog dashboard!
+  navLinks:
+    - title: Google
+      path: https://www.google.com
+    - title: GitHub
+      path: https://github.com/El-Pollo-Loco-Inc
+    - title: Documentation
+      path: https://dashy.to/docs
+sections:
+  - name: Smellydog Apps
+    icon: https://www.smellydog.net/cal.ico
+    items:
+      - &ref_0
+        title: Blue Iris
+        icon: hl-blue-iris
+        url: https://bi.smellydog.net/ui3.htm?group=Index
+        id: 0_1380_blueiris
+      - &ref_1
+        title: Grafana
+        url: https://grafana.smellydog.net/?orgId=1
+        icon: hl-grafana
+        id: 1_1380_grafana
+      - &ref_2
+        title: Opnsense
+        url: http://10.20.20.1:8080/
+        icon: hl-opnsense
+        id: 2_1380_opnsense
+      - &ref_3
+        title: Smellydog Web
+        url: https://www.smellydog.net/
+        icon: https://www.smellydog.net/cal.ico
+        id: 3_1380_smellydogweb
+      - &ref_4
+        title: Unifi
+        icon: hl-unifi
+        url: http://i5dockerhost.home.smellydog.net:8080/
+        id: 4_1380_unifi
+      - &ref_5
+        title: ZwaveJS2MQTT
+        icon: hl-zwavejs2mqtt
+        url: http://zigbeezwave.home.smellydog.net:8091/control-panel
+        id: 5_1380_zwavejsmqtt
+      - &ref_6
+        title: Zigbee2MQTT
+        icon: zigbee
+        url: http://zigbeezwave.home.smellydog.net:8080/#/
+        id: 6_1380_zigbeemqtt
+      - &ref_7
+        title: TrueNAS
+        icon: hl-truenas
+        url: http://truenas.home.smellydog.net
+        target: newtab
+        id: 7_1380_truenas
+      - &ref_8
+        title: PiHole
+        icon: hl-pihole
+        url: http://pihole.home.smellydog.net/admin
+        target: newtab
+        id: 8_1380_pihole
+    filteredItems:
+      - *ref_0
+      - *ref_1
+      - *ref_2
+      - *ref_3
+      - *ref_4
+      - *ref_5
+      - *ref_6
+      - *ref_7
+      - *ref_8
+  - name: Proxmox
+    icon: hl-proxmox
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_9
+        title: Proxmox bee
+        icon: png/proxmox.png
+        url: http://pvebee.home.smellydog.net:8006/
+        target: newtab
+        id: 0_765_proxmoxbee
+      - &ref_10
+        title: Proxmox EPL
+        icon: png/proxmox.png
+        url: http://pveepl.home.smellydog.net:8006/
+        target: newtab
+        id: 1_765_proxmoxepl
+      - &ref_11
+        title: Proxmox i5 (EPL)
+        icon: png/proxmox.png
+        url: http://pvei5.home.smellydog.net:8006/
+        target: newtab
+        id: 2_765_proxmoxiepl
+      - &ref_12
+        title: Proxmox blki7
+        icon: png/proxmox.png
+        url: http://pveblki7.home.smellydog.net:8006/
+        target: newtab
+        id: 3_765_proxmoxblki
+      - &ref_13
+        title: Proxmox i3
+        icon: png/proxmox.png
+        url: http://pvei3.home.smellydog.net:8006/
+        target: newtab
+        id: 4_765_proxmoxi
+      - &ref_14
+        title: Tail Proxmox i5
+        icon: png/proxmox.png
+        url: http://100.70.13.38:8006/
+        target: newtab
+        id: 5_765_tailproxmoxi
+      - &ref_15
+        title: Tail Proxmox r7
+        icon: png/proxmox.png
+        url: http://100.91.82.6:8006/
+        target: newtab
+        id: 6_765_tailproxmoxr
+      - &ref_16
+        title: Tail Proxmox i7
+        icon: png/proxmox.png
+        url: http://100.83.82.143:8006/
+        target: newtab
+        id: 7_765_tailproxmoxi
+      - &ref_17
+        title: Tail Proxmox i3
+        icon: png/proxmox.png
+        url: http://100.88.73.123:8006/
+        target: newtab
+        id: 8_765_tailproxmoxi
+      - &ref_18
+        title: Helper Scripts
+        icon: favicon
+        url: https://tteck.github.io/Proxmox/
+        target: newtab
+        id: 9_765_helperscripts
+    filteredItems:
+      - *ref_9
+      - *ref_10
+      - *ref_11
+      - *ref_12
+      - *ref_13
+      - *ref_14
+      - *ref_15
+      - *ref_16
+      - *ref_17
+      - *ref_18
+  - name: Portainer
+    icon: hl-portainer
+    items:
+      - &ref_19
+        title: zigbee/zwave
+        icon: png/docker.png
+        url: https://zigbeezwave.home.smellydog.net:9443/
+        id: 0_948_zigbeezwave
+      - &ref_20
+        title: ProxDocker
+        icon: png/docker.png
+        url: http://i5dockerhost.home.smellydog.net:9000/
+        target: newtab
+        id: 1_948_proxdocker
+      - &ref_21
+        title: LinodeDocker
+        icon: png/docker.png
+        url: https://100.105.214.145:9443/
+        target: newtab
+        id: 2_948_linodedocker
+      - &ref_22
+        title: MediaVmDocker
+        icon: png/docker.png
+        url: http://mediavm.home.smellydog.net:9000/
+        target: newtab
+        id: 3_948_mediavmdocker
+    filteredItems:
+      - *ref_19
+      - *ref_20
+      - *ref_21
+      - *ref_22
+  - name: Remote Control
+    icon: mdi-remote-desktop
+    items:
+      - &ref_23
+        title: Blackholei7
+        icon: png/pikvm.png
+        url: http://pikvm3.home.smellydog.net/
+        id: 0_1389_blackholei
+      - &ref_24
+        title: Blackholei5
+        url: http://10.20.30.7/
+        icon: png/pikvm.png
+        id: 1_1389_blackholei
+      - &ref_25
+        title: IT-004
+        icon: png/pikvm.png
+        url: http://pikvm2.home.smellydog.net/
+        id: 2_1389_it
+      - &ref_26
+        title: Opnsense
+        icon: png/pikvm.png
+        url: http://10.20.30.8/
+        id: 3_1389_opnsense
+      - &ref_27
+        title: EPL9150
+        icon: png/pikvm.png
+        url: http://pikvm.home.smellydog.net/
+        id: 4_1389_epl
+    filteredItems:
+      - *ref_23
+      - *ref_24
+      - *ref_25
+      - *ref_26
+      - *ref_27
+  - name: Hardware
+    icon: mdi-hammer-wrench
+    items:
+      - &ref_28
+        title: Brother Printer
+        icon: mdi-printer
+        url: http://brother.home.smellydog.net/
+        id: 0_814_brotherprinter
+      - &ref_29
+        title: Front Porch (Shelly)
+        icon: mdi-coach-lamp
+        url: http://shelly1-outside.home.smellydog.net/
+        id: 1_814_frontporchshelly
+      - &ref_30
+        title: Front Yard (Reolink)
+        icon: mdi-video-wireless-outline
+        url: http://frontyard.home.smellydog.net/
+        id: 2_814_frontyardreolink
+      - &ref_31
+        title: HDHomerun
+        icon: hl-hdhomerun
+        url: http://hdhomerun.home.smellydog.net/
+        id: 3_814_hdhomerun
+      - &ref_32
+        title: My Cloud NAS
+        icon: mdi-nas
+        url: http://10.20.20.5/
+        id: 4_814_mycloudnas
+      - &ref_33
+        title: Netgear Switch
+        icon: mdi-switch
+        url: http://netgear.home.smellydog.net/
+        id: 5_814_netgearswitch
+      - &ref_34
+        title: OPi200 VOIP
+        icon: mdi-phone-voip
+        url: http://OBi200.home.smellydog.net/
+        id: 6_814_opivoip
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    filteredItems:
+      - *ref_28
+      - *ref_29
+      - *ref_30
+      - *ref_31
+      - *ref_32
+      - *ref_33
+      - *ref_34
+  - name: Offsite Resources
+    items:
+      - &ref_35
+        title: Uptime Kuma
+        icon: png/uptime-kuma.png
+        url: http://10.20.20.76:3001/
+        id: 0_1707_uptimekuma
+      - &ref_36
+        title: Remote Uptime Kuma
+        icon: png/uptime-kuma.png
+        url: http://rkuma.smellydog.net:3001/
+        target: newtab
+        id: 1_1707_remoteuptimekuma
+      - &ref_37
+        title: EasyDNS
+        icon: https://www.smellydog.net/images/easydns.png
+        url: https://easydns.com/
+        target: newtab
+        id: 2_1707_easydns
+      - &ref_38
+        title: UptimeRobot
+        icon: favicon
+        url: https://uptimerobot.com/
+        id: 3_1707_uptimerobot
+      - &ref_39
+        title: LastPass
+        icon: https://www.smellydog.net/images/lastpass.png
+        url: https://www.lastpass.com/
+        id: 4_1707_lastpass
+      - &ref_40
+        title: Pushover
+        icon: favicon
+        url: https://pushover.net/login
+        id: 5_1707_pushover
+      - &ref_41
+        title: Nabu Casa
+        icon: https://www.smellydog.net/images/nabucasa.png
+        url: https://account.nabucasa.com/
+        target: newtab
+        id: 6_1707_nabucasa
+      - &ref_42
+        title: IFTTT
+        icon: favicon
+        url: https://ifttt.com/
+        id: 7_1707_ifttt
+      - &ref_43
+        title: PIA
+        icon: favicon
+        url: https://www.privateinternetaccess.com/
+        id: 8_1707_pia
+      - &ref_44
+        title: Wasabi
+        icon: favicon
+        url: https://console.wasabisys.com
+        id: 9_1707_wasabi
+      - &ref_45
+        title: ObiTalk
+        icon: favicon
+        url: https://www.obitalk.com/obinet/
+        id: 10_1707_obitalk
+      - &ref_46
+        title: GV 911
+        icon: mdi-car-emergency
+        url: https://www.gv911.com/
+        target: newtab
+        id: 11_1707_gv
+    filteredItems:
+      - *ref_35
+      - *ref_36
+      - *ref_37
+      - *ref_38
+      - *ref_39
+      - *ref_40
+      - *ref_41
+      - *ref_42
+      - *ref_43
+      - *ref_44
+      - *ref_45
+      - *ref_46
+  - name: Media
+    icon: mdi-playnetwork
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_47
+        title: Sonarr
+        icon: png/sonarr.png
+        url: http://sonarr.home.smellydog.net:8989/
+        target: newtab
+        id: 0_480_sonarr
+      - &ref_48
+        title: Radarr
+        icon: png/radarr.png
+        url: http://radarr.home.smellydog.net:7878/
+        target: newtab
+        id: 1_480_radarr
+      - &ref_49
+        title: Prowlarr
+        icon: png/prowlarr.png
+        url: http://prowlarr.home.smellydog.net:9696/
+        target: newtab
+        id: 2_480_prowlarr
+      - &ref_50
+        title: SABnzbd
+        icon: png/sabnzbd.png
+        url: http://sabnzbd.home.smellydog.net:7777/
+        target: newtab
+        id: 3_480_sabnzbd
+      - &ref_51
+        title: qBittorrent
+        icon: png/qbittorrent.png
+        url: http://qbittorrent.home.smellydog.net:8090/
+        target: newtab
+        id: 4_480_qbittorrent
+      - &ref_52
+        title: Bazarr
+        icon: png/bazarr.png
+        url: http://bazarr.home.smellydog.net:6767/
+        target: newtab
+        id: 5_480_bazarr
+      - &ref_53
+        title: Tdarr
+        icon: png/tdarr.png
+        url: http://tdarr.home.smellydog.net:8265/
+        target: newtab
+        id: 6_480_tdarr
+    filteredItems:
+      - *ref_47
+      - *ref_48
+      - *ref_49
+      - *ref_50
+      - *ref_51
+      - *ref_52
+      - *ref_53
+  - name: Syncthing
+    icon: hl-syncthing
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_54
+        title: SyncTrueNAS
+        icon: hl-syncthing
+        url: http://10.20.20.8:20910/#
+        target: newtab
+        id: 0_951_synctruenas
+      - &ref_55
+        title: SyncMediaVM
+        icon: hl-syncthing
+        url: http://10.20.20.13:8384/#
+        target: newtab
+        id: 1_951_syncmediavm
+      - &ref_56
+        title: SyncNucBridge
+        icon: hl-syncthing
+        url: http://10.20.20.23:8384/
+        target: newtab
+        id: 2_951_syncnucbridge
+      - &ref_57
+        title: SyncBlackholei9
+        icon: hl-syncthing
+        url: http://10.20.20.6:8384/
+        target: newtab
+        id: 3_951_syncblackholei
+      - &ref_58
+        title: SyncYoddysPC
+        icon: hl-syncthing
+        url: http://10.20.20.31:8384/#
+        target: newtab
+        id: 4_951_syncyoddyspc
+    filteredItems:
+      - *ref_54
+      - *ref_55
+      - *ref_56
+      - *ref_57
+      - *ref_58
