@@ -17,7 +17,6 @@ appConfig:
       - user: dogsop
         hash: 1fc959ad505adb8ed7e5bb16142154bb9f6e46a448442546ed0b9b95682dac9e
         type: admin
-    enableGuestAccess: true
   theme: material-original
   enableMaterialDesignIcons: true
   layout: auto
