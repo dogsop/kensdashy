@@ -95,6 +95,20 @@ sections:
         url: https://tteck.github.io/Proxmox/
         target: newtab
         id: 5_765_helperscripts
+  - name: Workstuff
+    items:
+      - title: R&A (PROD)
+        url: https://oms-idm.loco.oraclemicros.com/oidc-ui/
+        target: newtab
+      - title: R&A (EDV)
+        url: https://fbgbu-demo-ohra-idm.oracleindustry.com/oidc-ui/
+        target: newtab
+      - title: Simphony (PROD)
+        url: https://oms-idm.loco.oraclemicros.com/SimphonyApp/
+        target: newtab
+      - title: Simphony (EDV)
+        url: https://mtu2-demo-ohsim-sim.oracleindustry.com/SimphonyApp/
+        target: newtab
   - name: Portainer
     icon: hl-portainer
     items:
