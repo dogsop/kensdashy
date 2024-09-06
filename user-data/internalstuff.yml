@@ -107,11 +107,11 @@ sections:
         target: newtab
       - title: Simphony (PROD)
         url: https://loco-omsim.oracleindustry.com/SimphonyApp/Home/Index/
-        icon: mdi-mdi-silverware-fork-knife
+        icon: mdi-chart-line
         target: newtab
       - title: Simphony (EDV)
         url: https://mtu2-demo-ohsim-sim.oracleindustry.com/SimphonyApp/
-        icon: mdi-mdi-silverware-fork-knife
+        icon: mdi-chart-line
         target: newtab
   - name: Portainer
     icon: hl-portainer
