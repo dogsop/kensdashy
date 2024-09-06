@@ -97,6 +97,10 @@ sections:
         id: 5_765_helperscripts
   - name: Workstuff
     items:
+      - title: OneLogin
+        url: https://elpolloloco.onelogin.com/portal
+        icon: favicon
+        target: newtab
       - title: R&A (PROD)
         url: https://oms-idm.loco.oraclemicros.com/oidc-ui/
         icon: mdi-chart-line
