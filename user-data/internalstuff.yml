@@ -99,15 +99,19 @@ sections:
     items:
       - title: R&A (PROD)
         url: https://oms-idm.loco.oraclemicros.com/oidc-ui/
+        icon: mdi-summarize
         target: newtab
       - title: R&A (EDV)
         url: https://fbgbu-demo-ohra-idm.oracleindustry.com/oidc-ui/
+        icon: mdi-summarize
         target: newtab
       - title: Simphony (PROD)
         url: https://oms-idm.loco.oraclemicros.com/SimphonyApp/
+        icon: mdi-storefront
         target: newtab
       - title: Simphony (EDV)
         url: https://mtu2-demo-ohsim-sim.oracleindustry.com/SimphonyApp/
+        icon: mdi-storefront
         target: newtab
   - name: Portainer
     icon: hl-portainer
