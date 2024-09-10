@@ -117,6 +117,34 @@ sections:
         url: https://mtu2-demo-ohsim-sim.oracleindustry.com/SimphonyApp/
         icon: mdi-silverware
         target: newtab
+      - title: OneLogin
+        url: https://elpolloloco.onelogin.com/portal
+        icon: favicon
+        target: newtab
+      - title: BI API
+        url: https://docs.oracle.com/en/industries/food-beverage/back-office/20.1/biapi/index.html
+        icon: favicon
+        target: newtab
+      - title: STS API
+        url: https://docs.oracle.com/en/industries/food-beverage/simphony/omsstsg2api/index.html
+        icon: favicon
+        target: newtab
+      - title: C&C API
+        url: https://docs.oracle.com/en/industries/food-beverage/simphony/ccapi/index.html
+        icon: favicon
+        target: newtab
+      - title: Labor API (PDF)
+        url: https://docs.oracle.com/en/industries/food-beverage/back-office/20.1/lmapi/E90995_24.pdf
+        icon: favicon
+        target: newtab
+      - title: Labor Schedule API (PDF)
+        url: https://docs.oracle.com/en/industries/food-beverage/back-office/20.1/lmsch/E90996_14.pdf
+        icon: favicon
+        target: newtab
+      - title: STS API (PDF)
+        url: chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://docs.oracle.com/cd/F10429_01/doc.182/f11773.pdf
+        icon: favicon
+        target: newtab
   - name: Portainer
     icon: hl-portainer
     items:
