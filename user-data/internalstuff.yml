@@ -117,10 +117,6 @@ sections:
         url: https://mtu2-demo-ohsim-sim.oracleindustry.com/SimphonyApp/
         icon: mdi-silverware
         target: newtab
-      - title: OneLogin
-        url: https://elpolloloco.onelogin.com/portal
-        icon: favicon
-        target: newtab
       - title: BI API
         url: https://docs.oracle.com/en/industries/food-beverage/back-office/20.1/biapi/index.html
         icon: favicon
