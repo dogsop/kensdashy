@@ -30,7 +30,7 @@ sections:
         id: 3_1380_smellydogweb
       - title: Unifi
         icon: hl-unifi
-        url: https://i5dockerhost.pigeon-beaver.ts.net:8443/
+        url: https://blackhole360.pigeon-beaver.ts.net:8443/
         id: 4_1380_unifi
       - title: ZwaveJS2MQTT
         icon: hl-zwavejs2mqtt
