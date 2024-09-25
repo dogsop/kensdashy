@@ -130,7 +130,7 @@ sections:
         icon: favicon
         target: newtab
       - title: Labor API (PDF)
-        url: https://docs.oracle.com/en/industries/food-beverage/back-office/20.1/lmapi/E90995_24.pdf
+        url: https://docs.oracle.com/cd/E71871_01/doc.90/e90995.pdf
         icon: favicon
         target: newtab
       - title: Labor Schedule API (PDF)
@@ -138,7 +138,7 @@ sections:
         icon: favicon
         target: newtab
       - title: STS API (PDF)
-        url: chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://docs.oracle.com/cd/F10429_01/doc.182/f11773.pdf
+        url: https://docs.oracle.com/cd/F10429_01/doc.182/f11773.pdf
         icon: favicon
         target: newtab
   - name: Portainer
